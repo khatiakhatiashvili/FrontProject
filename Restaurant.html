@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Registration</title>
+   </head>
+   <body>
+      <div style="display: flex;justify-content: center;">
+         <div style="width:200px;height:200px;background-color:#e7e7e7;display: flex;justify-content: space-between;">
+            <a href="index.html">
+            <button>Home</button></a>
+            <a href="menu.html">
+            <button>Menu</button></a>
+            <a href="Registration.html">
+            <button>Join Us</button></a>
+         </div>
+         <div style="width:500px;text-align: center;">
+            <h2>რეგისტრაციის ფორმა</h2>
+            <form>
+               <div>
+                  <legend>შეიყვანეთ მონაცემები</legend>
+                  <div>
+                     <label for="first_name">სახელი:</label>			
+                     <input	type="text" placeholder="input your name" name="first_name" size="26" required/>
+                  </div>
+                  <div>
+                     <label for="last_name">გვარი:</label>	
+                     <input	type="text" placeholder="input your name" name="last_name" size="26" required/>
+                  </div>
+                  <div>
+                     <label for="age">ასაკი:</label>	
+                     <input	type="number" name="age" min="1" max="100" step="1"/>
+                  </div>
+                  <div>
+                     <label>ტელეფონის ნომერი:</label>
+                     <input type="text" placweholder="123-47-42-41" name="phone" pattern="\d{3}-\d{2}-\d{2}-\d{2}" required>
+                  </div>
+                  <div>
+                     <label for="email">მეილი:</label>			
+                     <input	type="email" name="email" />
+                  </div>
+                  <div>
+                     <h4>Choose your Gender</h4>
+                     <label for="man">კაცი:</label>	
+                     <input type="radio" name="gender" value="man" checked/>
+                  </div>
+                  <div>
+                     <label for="woman">ქალი:</label>	
+                     <input type="radio" name="gender" value="woman" />
+                  </div>
+                  <div>
+                     <label>აირჩიე განათლება</label>
+                     <select name="stack">
+                        <option>საბაზისო</option>
+                        <option>ბაკალავრი</option>
+                        <option>მაგისტრატურა</option>
+                     </select>
+                  </div>
+                  <div>
+                     <label>ატვირთეთ ფოტო</label>
+                     <input	type="file"/>
+                  </div>
+                  <div>
+                     <h4>სამოტივაციო ტექსტი</h4>
+                     <textarea name="comment" placeholder="max input character should be 200" maxlength="200" cols="50" rows="7"></textarea>
+                  </div>
+                  <div>
+                     <input	type="reset" value="გაუქმება"/>
+                     <input	type="submit" value="შენახვა"/>		
+                  </div>
+               </div>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47630.568528502765!2d44.755987701439665!3d41.74402259483588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d61330d8d1%3A0x612ede51d00167c9!2z4YOb4YOQ4YOZ4YOT4YOd4YOc4YOQ4YOa4YOT4YOh4YOY!5e0!3m2!1ska!2sge!4v1726488903855!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+   </body>
+</html>
