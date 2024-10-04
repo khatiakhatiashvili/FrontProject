@@ -18,6 +18,9 @@
   .align-center {
     align-items: center;
   }
+  .align-initial {
+    align-items: initial;
+  }
   .justify-center {
     justify-content: center;
   }
@@ -90,6 +93,9 @@
   .w-40 {
     width: 40%;
   }
+  .w-42 {
+    width: 42%;
+  }
   .w-50 {
     width: 50%;
   }
@@ -161,7 +167,9 @@
     width: 105.65px;
     height: 102.82px;
   }
-
+.black{
+    background-color: black;
+}
   .white {
     background-color: white;
   }
@@ -169,6 +177,10 @@
   .green {
     background-color: #b9ff66;
   }
+  .text-green {
+   color: #b9ff66;
+  }
+  
   
   .flex-wrap {
     flex-wrap: wrap;
@@ -196,6 +208,12 @@
 .h-194{
   height: 194px;
 }
+.h-484{
+  height: 484px;
+}
+.h-584{
+  height: 584px;  
+}
 .card{
   position: relative;
 }
@@ -207,9 +225,77 @@
     right:0;
   }
   .card-title{
-  width: 148px;
-height: 49px;
-   position: absolute;
-bottom: 19px;
+    width: 148px;
+    height: 49px;
+    position: absolute;
+    bottom: 19px;
     right: 10px;
+}
+
+.testimonial{
+  padding: 50px 0;
+ 
+}
+.testimonial-picture-left{
+ position: absolute;
+  top: 0;
+  left:0;
+ width: auto!important;
+ }
+ .testimonial-picture{
+  position: absolute;
+   top: 0;
+   left:0;
+  width: auto!important;
+  }
+.testimonial-picture-right{
+  position: absolute;
+  top: 0px;
+  right: 0;
+ width: auto!important;
+}
+
+.bubble{
+   position: relative;
+  left:-196px;
+}
+.bubble-left{
+  position: relative;
+  left: -51px;
+}
+.bubble-right{
+  position: relative;
+  right: -50px;
+}
+
+
+.testimonial-text{
+  position: absolute;
+  top: 41px;
+  left: 59px;
+  text-align: left;
+  width: max-content;
+}
+.testimonial-bubble-left-text{
+  position: absolute;
+     top: 37px;
+    left: -308px;
+   text-align: right;
+}
+.testimonial-bubble-right-text{
+  position: absolute;
+  top: 40px;
+  right: -274px;
+ text-align: left;
+}
+.testimonial-author
+{
+    position: relative;
+    top: 290px;
+    left: 328px; 
+}
+.testimonial-navigation{
+  position: relative;
+  top: 428px;
+  left: 266px;
 }

@@ -17,3 +17,50 @@
     border-radius: 14px;
     font-family: "Space Grotesk";
   }
+  .btn_card
+  {
+    background-color: black;
+    color: white;
+    padding: 20px 35px;  
+    border: 1px solid #191a23;
+    font-size: 20px;
+    border-radius: 14px;
+    font-family: "Space Grotesk";
+    float: right;
+  }
+  .radio_btn{
+    width: 28px;
+height: 28px;
+border: 1px solid black;
+  }
+  .radio_btn:checked{
+background-color:  #b9ff66;
+color:  #b9ff66;;;
+  } 
+
+  
+.input_btn{
+  width: 490px;
+padding: 18px 30px 18px 30px;
+gap: 10px;
+border-radius: 14px;
+border: 1px solid black;
+}
+.textarea_btn{
+  width: 490px;
+  height: 120px;
+  border-radius: 14px;
+border: 1px solid black;
+padding: 18px 30px 18px 30px;
+}
+.btn_send
+{ width: 550px;
+  background-color: black;
+  color: white;
+  padding: 18px 30px 18px 30px;
+  border: 1px solid #191a23;
+  font-size: 20px;
+  border-radius: 14px;
+  font-family: "Space Grotesk";
+  float: right;
+}
