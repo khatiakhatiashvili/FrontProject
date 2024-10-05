@@ -69,4 +69,7 @@ text-align: left;
    .text-green {
     color: #b9ff66;
    }
+   .text-underline{
+    text-decoration: underline;
+   }
    
