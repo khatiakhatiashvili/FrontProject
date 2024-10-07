@@ -149,6 +149,9 @@
   .border-rounded {
     border-radius: 45px;
   }
+  .br-7 {
+    border-radius: 7px;
+  }
   .border-rounded-top {
     border-radius: 45px 45px 0 0;
   }
@@ -158,6 +161,10 @@
     .border-bottom {
    border-bottom:2px solid black;
   }
+  .border-bottom-white {
+    border-bottom:2px solid white;
+    padding-bottom: 50px;
+   }
   .w-212 {
     width: 212px;
   }
@@ -211,8 +218,8 @@
 .h-194{
   height: 194px;
 }
-.h-364{
-  height: 364px;
+.h-426{
+  height: 426px;
 }
 .h-484{
   height: 484px;
@@ -308,4 +315,15 @@
 .contact-img{
  height: 594px;
  width: auto!important;
+}
+.w-fit{
+  width: fit-content;
+}
+.f-subscribe{
+width: 562px;
+height: 162px;
+padding: 30px 40px 44px 32px;
+gap: 20px;
+border-radius: 14px;
+background-color:  #292A32;
 }
