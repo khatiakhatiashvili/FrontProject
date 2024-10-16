@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="./src/styles/style.css" />        
+   </head>
+   <body>
+      <header class="bg-[#FBEBB5]">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <div class="flex lg:flex-1">    
+    </div>
+    <div class="hidden lg:flex lg:gap-x-16">    
+      <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
+      <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">Shop</a>
+      <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">About</a>
+      <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
+      <a href="#" class="text-black-900">   <img class="h-[28px] w-auto" src="./src/img/Common/account.svg" alt="account"> </a>
+      <a href="#" class="text-black-900">   <img class="h-[28px] w-auto" src="./src/img/Common/search.svg" alt="search"> </a>
+      <a href="#" class="text-black-900">   <img class="h-[28px] w-auto" src="./src/img/Common/heart.svg" alt="heart"> </a>
+      <a href="#" class="text-black-900">   <img class="h-[28px] w-auto" src="./src/img/Common/shopping.svg" alt="shopping"> </a>
+    </div>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-10"></div>
+    <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-between">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-8 w-auto" src="./src/img/Common/logo.svg" alt="">
+        </a>
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">            
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Home</a>
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Shop</a>
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">About</a>
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Contact</a>
+          </div>
+          <div class="py-6">
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>  
+     <section class="h-screen bg-[#FBEBB5]  h-[934px] ">
+        <div class="max-w-7xl flex place-content-around m-auto items-center">
+          <div>
+          <h1  class="text-[64px] font-medium  text-[#000000]">Rocket single seater</h1>
+          <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">Shop Now</p>
+        </div>
+        <div>
+          <img class="h-[662px] w-[686px]" src="./src/img/Home/Rocketsingleseater.svg" alt="Rocketsingleseater">
+        </div>
+        </div>
+     </section>
+     <section class=" bg-[#D9D9D9] h-[672px]  ">
+      <div class="max-w-7xl flex place-content-around m-auto items-center pt-[44px]">
+        <div class=" w-[562px]">
+          <div class="bg-[url('./src/img/Home/Granitesquaresidetable.svg')] h-[344px] ml-[-40px]"></div>
+          <!-- <img  src="./src/img/Home/Granitesquaresidetable.svg" alt="Granitesquaresidetable"> -->
+          <div>
+            <p  class="text-[36px] font-medium  text-[#000000]">Side table</p>
+            <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">View More</p>
+        </div>
+      </div>
+      <div class=" w-[562px] ">
+        <div class="bg-[url('./src/img/Home/sofathreeseater.svg')] h-[344px] ml-[-40px]"></div>
+        <!-- <img  src="./src/img/Home/sofathreeseater.svg" alt="sofathreeseater"> -->
+        <div>
+          <p  class="text-[36px] font-medium  text-[#000000]">Side table</p>
+          <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">View More</p>
+      </div>
+      </div>
+      </div>
+   </section>
+   <section class="h-screen bg-[#000000]   ">
+    <div class="max-w-7xl flex place-content-around m-auto items-center pt-[44px]">
+      <div class=" w-[562px]">
+        <div class="bg-[url('./src/img/Home/Granitesquaresidetable.svg')] h-[344px] ml-[-40px]"></div>
+        <!-- <img  src="./src/img/Home/Granitesquaresidetable.svg" alt="Granitesquaresidetable"> -->
+        <div>
+          <p  class="text-[36px] font-medium  text-[#000000]">Side table</p>
+          <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">View More</p>
+      </div>
+    </div>
+    <div class=" w-[562px] ">
+      <div class="bg-[url('./src/img/Home/sofathreeseater.svg')] h-[344px] ml-[-40px]"></div>
+      <!-- <img  src="./src/img/Home/sofathreeseater.svg" alt="sofathreeseater"> -->
+      <div>
+        <p  class="text-[36px] font-medium  text-[#000000]">Side table</p>
+        <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">View More</p>
+    </div>
+    </div>
+    </div>
+ </section>
+     <footer></footer>
+  
+   </body>
+</html>
