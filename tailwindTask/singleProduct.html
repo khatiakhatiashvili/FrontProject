@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./src/styles/style.css" />
+</head>
+
+<body>
+  <header class="bg-[#ffffff]">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+      </div>
+      <div class="hidden lg:flex lg:gap-x-16">
+        <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
+        <a href="shop.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Shop</a>
+        <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">About</a>
+        <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/account.svg"
+            alt="account"> </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/search.svg" alt="search">
+        </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/heart.svg" alt="heart">
+        </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/shopping.svg"
+            alt="shopping"> </a>
+      </div>
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-10"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="./src/img/Common/logo.svg" alt="">
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Home</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Shop</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">About</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Contact</a>
+            </div>
+            <div class="py-6">
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
+                in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="  bg-[#FFFFFF] pb-[100px]">  
+        <div class="flex  w-full justify-between  items-center bg-[#faf4f4] p-6 pr-[20%] pl-[20%] pt-[50px] ">
+           
+            <div class="flex items-center gap-x-6">  
+                <p class="text-[16px] font-regular text-[#9F9F9F]">Home</p>
+                <img class="h-[20px] w-auto" src="./src/img/Shop/dashicon.svg" alt="dashicon">        
+                <p class="text-[16px] font-regular text-[#9F9F9F]">Shop</p>
+                <img class="h-[20px] w-auto" src="./src/img/Shop/dashicon.svg" alt="dashicon">      
+                <img class="h-[36px] w-auto" src="./src/img/SingleProduct/Line.svg" alt="Line">  
+                <p class="text-[16px] font-regular text-[#000000]"> Asgaard sofa </p>                     
+            </div>      
+        </div>     
+  </section>
+  <section class=" ">
+    <div class="max-w-7xl flex place-content-around m-auto items-start h-full gap-x-6 border-b border-[#D9D9D9] pb-[50px] " >
+        <div class="flex place-content-around gap-x-10  h-[500px]"> 
+            <div class="flex flex-col h-full  place-content-start gap-y-8">           
+                <div class="bg-[#ffe6cc]  rounded-[10px] h-[80px] w-[80px]">
+                    <img class="" src="./src/img/SingleProduct/Maskgroup1.svg" alt="Maskgroup1">
+                </div>
+                <div class="bg-[#ffe6cc]  rounded-[10px] h-[80px] w-[80px]">
+                    <img class="" src="./src/img/SingleProduct/Maskgroup2.svg" alt="Maskgroup2">
+                </div>
+                <div class="bg-[#ffe6cc]  rounded-[10px] h-[80px] w-[80px]">
+                    <img class="" src="./src/img/SingleProduct/Maskgroup3.svg" alt="Maskgroup3">
+                </div>
+                <div class="bg-[#ffe6cc]  rounded-[10px] h-[80px] w-[80px]">
+                    <img class="" src="./src/img/SingleProduct/Maskgroup4.svg" alt="Maskgroup4">
+                </div>
+            </div>
+            <div class="h-full bg-[#ffe6cc]">
+                <img class="h-full  object-cover" src="./src/img/Home/sofa.svg" alt="sofa">
+                </div>
+        </div>
+        <div class="flex  flex-col">
+            <div class="flex  flex-col  items-start gap-y-3 border-b border-[#D9D9D9] pb-[50px]">
+                <p class="text-[42px] font-regular text-[#000000]">Asgaard sofa</p>
+                <p class="text-[24px] font-medium text-[#9F9F9F]">Rs. 250,000.00</p>          
+                <div class="flex place-content-around gap-x-3  items-center">
+                    <img class="" src="./src/img/SingleProduct/stars.svg" alt="stars">
+                    <img class="h-[30px] w-auto" src="./src/img/SingleProduct/Line.svg" alt="Line">  
+                    <p class="text-[13px] font-regular text-[#9F9F9F]">5 Customer Review</p>
+                </div>
+                <p class="text-[13px] font-regular text-[#000000]">Setting the bar as one of the loudest speakers in its class, the <br> Kilburn is a compact, 
+                    stout-hearted hero with a well-balanced <br> audio which boasts a clear midrange and extended highs for a  <br>  sound.
+                </p>    
+                <p class="text-[14px] font-regular text-[#9F9F9F]">Size </p>    
+                <div class="flex  place-content-around gap-x-4 mt-1">
+                    <button  class="text-[13px] h-[28px]  w-[28px] font-regular text-[#000000] bg-[#FBEBB5] rounded-[5px] items-center">L</button>
+                    <button  class="text-[13px] h-[28px]  w-[28px] font-regular text-[#000000] bg-[#FAF4F4] rounded-[5px] items-center">XL</button>
+                    <button  class="text-[13px] h-[28px]  w-[28px] font-regular text-[#000000] bg-[#FAF4F4] rounded-[5px] items-center">XSS</button>
+                </div>
+                <p class="text-[14px] font-regular text-[#9F9F9F]">Color </p>  
+                <div class="flex  place-content-around gap-x-4 mt-1">
+                    <img class="h-[30px] w-auto" src="./src/img/SingleProduct/purple.svg" alt="purple">  
+                    <img class="h-[30px] w-auto" src="./src/img/SingleProduct/black.svg" alt="black">  
+                    <img class="h-[30px] w-auto" src="./src/img/SingleProduct/yellow.svg" alt="yellow">  
+                </div>  
+                <div class="flex place-content-around  gap-x-5 mt-4">
+                    <div  class="border-2 border-[#9F9F9F] flex justify-around rounded-[10px] h-[64px] w-[120px] items-center ">
+                        <button class="text-[16px]  font-regular text-[#000000] ">-</button>
+                        <p class="text-[16px]  font-regular text-[#000000] ">1</p>
+                        <button class="text-[16px]  font-regular text-[#000000] ">+</button>
+                    </div>                  
+                    <button class="text-[20px]   font-regular text-[#000000] border-2 border-[#000000] h-[64px] w-[215px] rounded-[10px] items-center ">Add To Cart</button>                 
+                </div>
+            </div>   
+            <div class="flex flex-col gap-y-4 items-start mt-8">
+                <div class="flex justify-around gap-x-3">
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">SKU </p> :
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">SS001</p>
+                </div>
+                <div class="flex justify-around gap-x-2">
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">Category </p>:
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">Sofas</p>
+                </div>
+                <div class="flex justify-around gap-x-2">
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">Tags </p>:
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">Sofa, Chair, Home, Shop</p>
+                </div>
+                <div class="flex justify-around gap-x-4">
+                    <p class="text-[16px] font-regular text-[#9F9F9F]">Share </p>:
+                    <img class="h-[20px] w-auto" src="./src/img/SingleProduct/facebook.svg" alt="facebook">  
+                    <img class="h-[20px] w-auto" src="./src/img/SingleProduct/linkedin.svg" alt="linkedin">  
+                    <img class="h-[20px] w-auto" src="./src/img/SingleProduct/twitter.svg" alt="twitter"> 
+                    <img class="h-[25px] w-[25px] ml-[90%]" src="./src/img/SingleProduct/heart.svg" alt="heart">  
+                </div>
+            </div>         
+        </div>    
+    </div>
+</section>
+<section class=" mt-12">
+  <div class="max-w-7xl flex flex-col m-auto items-center h-full  gap-y-16 border-b border-[#D9D9D9] pb-[50px]" >
+      <div class="flex items-center gap-x-16">
+        <p class="text-[24px] font-regular text-[#000000]">Description</p>
+        <p class="text-[24px] font-regular text-[#9F9F9F]">Additional Information</p>
+        <p class="text-[24px] font-regular text-[#9F9F9F]">  Reviews [5]</p>
+      </div>
+      <div class="flex  flex-col items-center gap-y-7 w-[1026px]">   
+          <p class="text-[16px] font-regular text-[#9F9F9F]">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn 
+            portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+            <p class="text-[16px] font-regular text-[#9F9F9F]">Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue 
+              knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+      </div>
+      <div class="flex   items-center gap-x-10">
+        <div class="bg-[#FFF9E5]  rounded-[10px] h-full w-[50%] ">
+          <img class="" src="./src/img/SingleProduct/sofa1.svg" alt="sofa1">  
+        </div>
+        <div class="bg-[#FFF9E5]  rounded-[10px] h-full w-[50%] ">
+          <img class="" src="./src/img/SingleProduct/sofa2.svg" alt="sofa2">  
+        </div>
+        
+      </div>
+  </div>
+</section>
+
+<section class="h-[720px]  bg-[#FFFFFF]">
+  <div class="max-w-7xl flex  flex-col items-center m-auto pt-[70px]">
+  <div class="flex  flex-col items-center">
+    <h2 class="text-[36px] font-medium  text-[#000000]">Related Products</h2>   
+  </div>
+  <div class="flex place-content-around  pt-[90px] flex-wrap text-center">      
+    <div class="w-[294px] text-center flex flex-col items-center">
+      <img src="./src/img/Home/Trentonmodularsofa.svg" class="h-48 w-auto mb-4" alt="Trentonmodularsofa">
+      <p class="text-[16px] font-medium text-[#000000]">Trenton modular sofa_3</p>
+      <p class="text-[24px] font-medium text-[#000000]">Rs. 25,000.00</p>
+    </div>
+    <div class="w-[294px] text-center flex flex-col items-center">
+      <img src="./src/img/Home/Granitedining.svg" class="h-48 w-auto mb-4" alt="Granitedining">
+      <p class="text-[16px] font-medium text-[#000000]">Granite dining table with <br> dining chair</p>
+      <p class="text-[24px] font-medium text-[#000000]">Rs. 25,000.00</p>
+    </div>
+    <div class="w-[294px] text-center flex flex-col items-center">
+      <img src="./src/img/Home/Outdoor.svg" class="h-48 w-auto mb-4" alt="Outdoor">
+      <p class="text-[16px] font-medium text-[#000000]">Outdoor bar table and <br> stool</p>
+      <p class="text-[24px] font-medium text-[#000000]">Rs. 25,000.00</p>
+    </div>
+    <div class="w-[294px] text-center flex flex-col items-center">
+      <img src="./src/img/Home/Plainmirror.svg" class="h-48 w-auto mb-4" alt="Plainmirror">
+      <p class="text-[16px] font-medium text-[#000000]">Plain console with teak <br> mirror</p>
+      <p class="text-[24px] font-medium text-[#000000]">Rs. 25,000.00</p>
+    </div>
+  </div>
+  <div class="mt-[78px]">
+    <p class="text-[24px] font-medium text-[#000000] border-b-2 border-black pb-1 inline-block">View More</p>
+  </div>
+</div>
+</section> 
+ <footer  class="bg-[#FFFFFF]  ">
+  <div class="max-w-7xl m-auto ">
+    <div class="max-w-7xl flex justify-around items-center gap-x-5 mt-[60px]  border-b-2 border-[#9F9F9F]  pb-[50px] inline-block">
+      <div class="text-[16px] font-regular text-[#9F9F9F]">400 University Drive Suite 200 Coral <br> Gables, <br>
+        FL 33134 USA</div>
+      <div  class="flex flex-col items-start gap-y-8">
+        <p class="text-[16px] font-regular text-[#9F9F9F]"> Links </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Home </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Shop </p>
+        <p class="text-[16px] font-medium text-[#000000]"> About </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Contact</p>
+      </div>
+      <div class="flex flex-col items-start gap-y-8">
+        <p class="text-[16px] font-regular text-[#9F9F9F]"> Help </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Payment Options </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Returns </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Privacy Policies </p>       
+      </div>
+      <div class="flex flex-col items-start gap-y-8">
+            <p class="text-[16px] font-regular text-[#9F9F9F]"> Newsletter </p>
+            <div class="flex justify-between gap-x-5">
+              <p class="text-[16px] font-regular text-[#9F9F9F] border-b-2 border-[#9F9F9F] pb-1 inline-block"> Enter Your Email Address </p>        
+              <p class="text-[16px] font-medium text-[#000000]  border-b-2 border-black pb-1 inline-block"> SUBSCRIBE </p>
+          </div>
+      </div>
+    </div>
+    <div class="pt-[30px] pb-[30px]">
+      <p  class="text-[16px] font-regular text-[#000000]"> 2022 Meubel House. All rights reverved</p>
+    </div>
+  </div>
+</footer> 
+</body>
+</html>
