@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./src/styles/style.css" />
+</head>
+
+<body>
+  <header class="bg-[#ffffff]">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+      </div>
+      <div class="hidden lg:flex lg:gap-x-16">
+        <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
+        <a href="shop.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Shop</a>
+        <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">About</a>
+        <a href="#" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/account.svg"
+            alt="account"> </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/search.svg" alt="search">
+        </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/heart.svg" alt="heart">
+        </a>
+        <a href="#" class="text-black-900"> <img class="h-[28px] w-auto" src="./src/img/Common/shopping.svg"
+            alt="shopping"> </a>
+      </div>
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-10"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="./src/img/Common/logo.svg" alt="">
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Home</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Shop</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">About</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-[#000000] hover:bg-gray-50">Contact</a>
+            </div>
+            <div class="py-6">
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
+                in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+<section class="h-[316px] w-full">
+        <div class=" flex  flex-col items-center m-auto pt-[70px] text-center bg-cover bg-center bg-[url('./src/img/Shop/Rectangle.svg')] h-full w-full ">    
+            <div class="flex  flex-col items-center">  
+                <img class="h-[78px] w-auto "  src="./src/img/Common/logo.svg" alt="logo">
+                <p class="text-[48px] font-bold text-[#000000]">My Account</p>
+
+            </div>
+            <div class="flex items-center gap-x-2">  
+          <a href="index.html"> <p class="text-[16px] font-medium text-[#000000]">Home</p></a> 
+            <img class="h-[20px] w-auto" src="./src/img/Shop/dashicon.svg" alt="dashicon">        
+            <p class="text-[16px] text-[#000000]">My Account</p>
+        </div>
+    </div>
+  </section>
+  <section class="bg-[#ffffff] pb-6">
+    <div class="max-w-7xl flex justify-around m-auto items-center pt-[44px]">
+        <div >   
+              <p class="text-[36px] font-semibold text-[#000000]">Log In</p>          
+               <form action="" class="flex flex-col gap-y-5 mt-6">
+                  <div class="w-[423px] flex flex-col gap-y-3">
+                        <label for="fname" class="text-[16px] font-medium text-[#000000]">Username or email address</label>
+                         <input type="text" id="fname" name="fname" value="" class="border-2 border-[#9F9F9F] h-[64px] w-full rounded-[10px] items-center p-3">
+                   </div>
+                    <div class="w-[423px] flex flex-col gap-y-3">
+                        <label for="fpass" class="text-[16px] font-medium text-[#000000]">Password</label>
+                         <input type="text" id="fpass" name="fpass" value="" class="border-2 border-[#9F9F9F] h-[64px] w-full rounded-[10px] items-center p-3">
+                    </div>                 
+                     <div class="w-[423px] flex  gap-x-3">
+                         <input type="checkbox" id="RememberMe" name="RememberMe" value="" class="border-2 border-[#9F9F9F] rounded-[5px] ">
+                         <label for="RememberMe" class="text-[16px] font-regular text-[#000000]"> Remember me</label>
+                      </div>
+                      <div class="w-[423px] flex  gap-x-3 items-center">
+                         <input type="submit" value="Log In" class="border-2 border-[#9F9F9F] h-[64px] w-[40%] rounded-[15px] items-center p-1">
+                         <a href="#"><p class="text-[16px] font-light text-[#000000]"> Lost Your Password?</p></a>
+                      </div>               
+               </form>       
+        </div>
+        <div >     
+            <p class="text-[36px] font-semibold text-[#000000]">Register</p>          
+            <form action="" class="flex flex-col gap-y-8 mt-6">
+                <div class="w-[423px] flex flex-col gap-y-3">
+                        <label for="fname" class="text-[16px] font-medium text-[#000000]">Email address</label>
+                        <input type="text" id="fname" name="fname" value="" class="border-2 border-[#9F9F9F] h-[64px] w-full rounded-[10px] items-center p-3">
+                    </div>
+                    <div class="w-[423px] flex flex-col gap-y-3">
+                        <p class="text-[16px] font-light text-[#000000]">A link to set a new password will be sent to your email address.</p>
+                        <p class="text-[16px] font-light text-[#000000] w-full">Your personal data will be used to support your experience throughout this website, 
+                            to manage access to your account, and for other purposes described in our privacy policy.</p>
+                    </div>                
+                    <div class="w-[423px] flex  items-center">
+                        <input type="submit" value="Register" class="border-2 border-[#9F9F9F] h-[64px] w-[40%] rounded-[15px] items-center p-1">                   
+                    </div>               
+            </form>       
+        </div>
+    </div>
+  </section> 
+  <section class=" mb-[60px] h-[300px] bg-[#FAF4F4]">
+    <div class="max-w-7xl flex  flex-col items-center m-auto ">   
+    <div class="flex place-content-around  pt-[90px] flex-wrap text-center gap-x-5">      
+      <div class="w-[394px] text-center flex flex-col items-start  gap-y-1 ">       
+        <p class="text-[32px] font-medium text-[#000000]">Free Delivery</p>
+        <p class="text-[20px] font-medium text-[#9F9F9F]">For all oders over $50, consectetur <br> adipim scing elit.</p> 
+      </div>
+      <div class="w-[394px] text-center flex flex-col items-start gap-y-1 ">       
+        <p class="text-[32px] font-medium text-[#000000]">90 Days Return</p>
+        <p class="text-[20px] font-medium text-[#9F9F9F]">If goods have problems, consectetur <br> adipim scing elit.</p> 
+      </div>
+      <div class="w-[394px] text-center flex flex-col items-start gap-y-1 ">       
+        <p class="text-[32px] font-medium text-[#000000]">Secure Payment</p>
+        <p class="text-[20px] font-medium text-[#9F9F9F]">100% secure payment, consectetur <br> adipim scing elit.</p>  
+     
+    </div>
+    
+  </div>
+  </section>
+ <footer  class="bg-[#FFFFFF]  ">
+  <div class="max-w-7xl m-auto ">
+    <div class="max-w-7xl flex justify-around items-center gap-x-5 mt-[60px]  border-b-2 border-[#9F9F9F]  pb-[50px] inline-block">
+      <div class="text-[16px] font-regular text-[#9F9F9F]">400 University Drive Suite 200 Coral <br> Gables, <br>
+        FL 33134 USA</div>
+      <div  class="flex flex-col items-start gap-y-8">
+        <p class="text-[16px] font-regular text-[#9F9F9F]"> Links </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Home </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Shop </p>
+        <p class="text-[16px] font-medium text-[#000000]"> About </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Contact</p>
+      </div>
+      <div class="flex flex-col items-start gap-y-8">
+        <p class="text-[16px] font-regular text-[#9F9F9F]"> Help </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Payment Options </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Returns </p>
+        <p class="text-[16px] font-medium text-[#000000]"> Privacy Policies </p>       
+      </div>
+      <div class="flex flex-col items-start gap-y-8">
+            <p class="text-[16px] font-regular text-[#9F9F9F]"> Newsletter </p>
+            <div class="flex justify-between gap-x-5">
+              <p class="text-[16px] font-regular text-[#9F9F9F] border-b-2 border-[#9F9F9F] pb-1 inline-block"> Enter Your Email Address </p>        
+              <p class="text-[16px] font-medium text-[#000000]  border-b-2 border-black pb-1 inline-block"> SUBSCRIBE </p>
+          </div>
+      </div>
+    </div>
+    <div class="pt-[30px] pb-[30px]">
+      <p  class="text-[16px] font-regular text-[#000000]"> 2022 Meubel House. All rights reverved</p>
+    </div>
+  </div>
+</footer> 
+</body>
+</html>
