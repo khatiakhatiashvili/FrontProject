@@ -8,10 +8,8 @@
 </head>
 <body>
     <header class="bg-[#ffffff]">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <!-- Logo or Left Section -->
-          <div class="flex lg:flex-1">
-            <!-- Optionally add a logo here -->
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">      
+          <div class="flex lg:flex-1">         
           </div>
       
           <!-- Desktop Menu Links -->
@@ -20,9 +18,8 @@
             <a href="shop.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Shop</a>
             <a href="blog.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">About</a>
             <a href="contact.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
-          </div>
-      
-          <!-- Mobile Menu Hamburger Icon -->
+          </div>      
+          <!-- Mobile Menu  Icon -->
           <div class="lg:hidden flex items-center ">
             <button id="menu-toggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" alt="menu icon">         
                 <span class="sr-only">Close menu</span>
@@ -31,8 +28,7 @@
                 </svg>
               </button>
             </button>
-          </div>
-      
+          </div>      
           <!-- Desktop Icons (Account, Search, Wishlist, Cart) -->
           <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
             <a href="Login.html" class="text-black-900">
@@ -48,8 +44,7 @@
               <img class="h-[28px] w-auto" src="./src/img/Common/shopping.svg" alt="shopping">
             </a>
           </div>
-        </nav>
-      
+        </nav>      
         <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="lg:hidden hidden flex-col items-start gap-y-4 px-6 py-4 flex flex-col absolute top-0 left-0">
           <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
@@ -166,7 +161,7 @@
   loadHTML('header-container', 'header.html');
   loadHTML('footer-container', 'footer.html');
 
-// Get the hamburger button and the mobile menu
+// Get button and the mobile menu
 const menuToggle = document.getElementById('menu-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 
@@ -175,6 +170,4 @@ menuToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
 });
 </script>
-
-</html>
 </html>

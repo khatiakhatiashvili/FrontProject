@@ -8,12 +8,9 @@
 </head>
 <body>
   <header class="bg-[#ffffff]">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <!-- Logo or Left Section -->
-      <div class="flex lg:flex-1">
-        <!-- Optionally add a logo here -->
-      </div>
-  
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">     
+      <div class="flex lg:flex-1">    
+      </div>  
       <!-- Desktop Menu Links -->
       <div class="hidden lg:flex lg:gap-x-16 ">
         <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
@@ -22,7 +19,7 @@
         <a href="contact.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
       </div>
   
-      <!-- Mobile Menu Hamburger Icon -->
+      <!-- Mobile Menu  Icon -->
       <div class="lg:hidden flex items-center ">
         <button id="menu-toggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" alt="menu icon">         
             <span class="sr-only">Close menu</span>
@@ -31,8 +28,7 @@
             </svg>
           </button>
         </button>
-      </div>
-  
+      </div>  
       <!-- Desktop Icons (Account, Search, Wishlist, Cart) -->
       <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
         <a href="Login.html" class="text-black-900">
@@ -197,12 +193,11 @@
         console.error('Error loading the HTML file:', error);
       });
   }
-
   // Load the header and footer
   loadHTML('header-container', 'header.html');
   loadHTML('footer-container', 'footer.html');
 
-// Get the hamburger button and the mobile menu
+// Get button and the mobile menu
 const menuToggle = document.getElementById('menu-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 
@@ -211,5 +206,4 @@ menuToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
 });
 </script>
-
 </html>

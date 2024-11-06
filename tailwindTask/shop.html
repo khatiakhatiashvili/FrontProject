@@ -4,26 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="./src/styles/style.css" />
 </head>
-
 <body>
    <header class="bg-[#ffffff]">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <!-- Logo or Left Section -->
-      <div class="flex lg:flex-1">
-        <!-- Optionally add a logo here -->
-      </div>
-  
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">    
+      <div class="flex lg:flex-1">   
+      </div>  
       <!-- Desktop Menu Links -->
       <div class="hidden lg:flex lg:gap-x-16 ">
         <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
         <a href="shop.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Shop</a>
         <a href="blog.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">About</a>
         <a href="contact.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Contact</a>
-      </div>
-  
-      <!-- Mobile Menu Hamburger Icon -->
+      </div>  
+      <!-- Mobile Menu  Icon -->
       <div class="lg:hidden flex items-center ">
         <button id="menu-toggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" alt="menu icon">         
             <span class="sr-only">Close menu</span>
@@ -32,8 +26,7 @@
             </svg>
           </button>
         </button>
-      </div>
-  
+      </div>  
       <!-- Desktop Icons (Account, Search, Wishlist, Cart) -->
       <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-[28px]">
         <a href="Login.html" class="text-black-900">
@@ -49,8 +42,7 @@
           <img class="h-[28px] w-auto" src="./src/img/Common/shopping.svg" alt="shopping">
         </a>
       </div>
-    </nav>
-  
+    </nav>  
     <!-- Mobile Dropdown Menu -->
     <div id="mobile-menu" class="lg:hidden hidden flex-col items-start gap-y-4 px-6 py-4 flex flex-col absolute top-0 left-0">
       <a href="index.html" class="text-[16px] font-medium leading-[24px] text-[#000000]">Home</a>
@@ -193,23 +185,21 @@
         </div>
   </div>
   </section>
-  <section class=" mb-[60px] h-[300px] bg-[#FAF4F4]">
+  <section class=" mb-[60px] lg:h-[350px] bg-[#FAF4F4]">
     <div class="max-w-7xl flex  flex-col items-center m-auto ">   
-    <div class="flex place-content-around  pt-[90px] flex-wrap text-center gap-x-5">      
+    <div class="flex place-content-around  lg:pt-[90px] sm:pt-[20px] md:pt-[20px] flex-wrap text-center gap-x-5 sm:gap-y-7">      
       <div class="w-[394px] text-center flex flex-col items-start  gap-y-1 ">       
-        <p class="text-[32px] font-medium text-[#000000]">Free Delivery</p>
-        <p class="text-[20px] font-medium text-[#9F9F9F]">For all oders over $50, consectetur <br> adipim scing elit.</p> 
+        <p class="lg:text-[32px] sm:text-[20px] md:text-[20px]  font-medium text-[#000000]">Free Delivery</p>
+        <p class="lg:text-[20px] sm:text-[10px] md:text-[12px]  font-medium text-[#9F9F9F]">For all oders over $50, consectetur <br> adipim scing elit.</p> 
       </div>
       <div class="w-[394px] text-center flex flex-col items-start gap-y-1 ">       
-        <p class="text-[32px] font-medium text-[#000000]">90 Days Return</p>
-        <p class="text-[20px] font-medium text-[#9F9F9F]">If goods have problems, consectetur <br> adipim scing elit.</p> 
+        <p class="lg:text-[32px] sm:text-[20px] md:txt-[20px]  font-medium text-[#000000]">90 Days Return</p>
+        <p class="lg:text-[20px] sm:text-[10px]  md:text-[12px]  font-medium text-[#9F9F9F]">If goods have problems, consectetur <br> adipim scing elit.</p> 
       </div>
       <div class="w-[394px] text-center flex flex-col items-start gap-y-1 ">       
-        <p class="text-[32px] font-medium text-[#000000]">Secure Payment</p>
-        <p class="text-[20px] font-medium text-[#9F9F9F]">100% secure payment, consectetur <br> adipim scing elit.</p>  
-     
-    </div>
-    
+        <p class="lg:text-[32px] sm:text-[20px] md:text-[20px]  font-medium text-[#000000]">Secure Payment</p>
+        <p class="lg:text-[20px]  sm:text-[10px]  md:text-[12px]  font-medium text-[#9F9F9F]">100% secure payment, consectetur <br> adipim scing elit.</p> 
+    </div>    
   </div>
 </section>
 <!-- Include Footer -->
@@ -232,7 +222,7 @@
   loadHTML('header-container', 'header.html');
   loadHTML('footer-container', 'footer.html');
 
-// Get the hamburger button and the mobile menu
+// Get button and the mobile menu
 const menuToggle = document.getElementById('menu-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 
