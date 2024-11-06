@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "name": "Rocket Single Seater",
+        "price": "Rs. 25,000.00",
+        "image": "./src/img/Home/Rocketsingleseater.svg",
+        "link": "cart.html"
+      },
+      {
+        "name": "Trenton modular sofa_3",
+        "price": "Rs. 25,000.00",
+        "image": "./src/img/Home/Trentonmodularsofa.svg",
+        "link": "singleProduct.html"
+      },
+      {
+        "name": "Granite dining table with dining chair",
+        "price": "Rs. 25,000.00",
+        "image": "./src/img/Home/Granitedining.svg",
+        "link": "singleProduct.html"
+      },
+      {
+        "name": "Outdoor bar table and stool",
+        "price": "Rs. 25,000.00",
+        "image": "./src/img/Home/Outdoor.svg",
+        "link": "singleProduct.html"
+      },
+      {
+        "name": "Plain console with teak mirror",
+        "price": "Rs. 25,000.00",
+        "image": "./src/img/Home/Plainmirror.svg",
+        "link": "singleProduct.html"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Going all-in with millennial design",
+        "image": "./src/img/Home/Rectangle1.svg",
+        "date": "12th Oct 2022",
+        "time": "5 min",
+        "link": "blog1.html"
+      },
+      {
+        "title": "The Rise of Minimalist Furniture",
+        "image": "./src/img/Home/Rectangle2.svg",
+        "date": "12th Oct 2022",
+        "time": "5 min",
+        "link": "blog2.html"
+      },
+      {
+        "title": "Sustainable Materials in Furniture Design",
+        "image": "./src/img/Home/Rectangle3.svg",
+        "date": "12th Oct 2022",
+        "time": "5 min",
+        "link": "blog3.html"
+      }
+    ],
+    "newArrival": {
+      "name": "Asgaard sofa",
+      "image": "./src/img/Home/sofa.svg",
+      "price": "Rs. 25,000.00",
+      "link": "cart.html"
+    }
+  }
+  
